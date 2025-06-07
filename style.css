@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #FE5D26;
+    --secondary-color: #FFE8E0;
+    --dark-primary-color: #F23D00;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--secondary-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+}
+
+
+/* COMPONENTS */
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+button i {
+    font-size: 24px;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: white;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary-color);
+    border: solid 2px var(--primary-color);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: fit-content;
+}
+
+.text-input label {
+    font-weight: 600;
+}
+
+.text-input input,
+.text-input textarea {
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background: #f2f2f2;
+    font-size: 14px;
+    max-width: 200px;
+    resize: none;
+}
+
+
+.title-section {
+    font-size: 32px;
+    text-align: center;
+}
+
+.title-section span {
+    color: var(--primary-color);
+}
+
+.desc-section {
+    text-align: center;
+}
+
+.section-menu {
+    padding: 2rem 5%;
+}
+
+.card-info {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-info-icon {
+    font-size: 24px;
+    color: white;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.5), transparent);
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.card-info-text {
+    color: white;
+}
+
+/* HEADER */
+
+/* HOME */
+
+/* CARS */
+
+/* ABOUT */
+
+/* TESTIMONIALS */
+
+/* CONTACT */
+
+/* FOOTER */
+
+@media screen and (max-width: 1024px) {
+
+    /* HEADER */
+
+    /* HOME */
+
+    /* ABOUT */
+
+    /* CONTACT */
+
+    /* FOOTER */
+
+}
